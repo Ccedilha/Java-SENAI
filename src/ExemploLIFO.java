@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 
-public class ExemploFIFO {
+public class ExemploLIFO {
     public static void main(String[] args) {
         ArrayList<String> pilhaDePratos = new ArrayList<>();
 
-
-        pilhaDePratos.add("Primeiro prato");
-        pilhaDePratos.add("Segundo prato");
-        pilhaDePratos.add("Terceiro prato");
+        pilhaDePratos.add("Primeiro prato");//0
+        pilhaDePratos.add("Segundo prato");//1
+        pilhaDePratos.add("Terceiro prato");//2
 
         System.out.println(pilhaDePratos);
 
