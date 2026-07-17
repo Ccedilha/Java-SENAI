@@ -1,4 +1,4 @@
-package atividades.atividade3;
+package atividades.atividade4;
 
 public class SistemaCorrigido {
     public static void main(String[] args) {

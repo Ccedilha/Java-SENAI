@@ -1,4 +1,4 @@
-package atividades.atividade3;
+package atividades.atividade4;
 import java.util.Scanner;
 
 public class GeradorDeFormas {
