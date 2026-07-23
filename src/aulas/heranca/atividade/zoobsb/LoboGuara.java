@@ -9,6 +9,6 @@ public class LoboGuara extends Animal {
         System.out.println("O Lobo Guará está comendo a carne de um roedor!\n");
     }
     public void deitarRolar(){
-        System.out.println("O Lobo Guará deitou e rolou!");
+        System.out.println("O "+getNome()+" deitou e rolou!");
     }
 }
