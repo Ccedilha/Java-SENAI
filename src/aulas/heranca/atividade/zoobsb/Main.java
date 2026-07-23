@@ -2,16 +2,22 @@ package aulas.heranca.atividade.zoobsb;
 
 public class Main {
     public static void main(String[] args) {
-        Animal loboGuara = new LoboGuara();
-        Animal araraAzul = new AraraAzul();
+        LoboGuara loboGuara = new LoboGuara();
+        AraraAzul araraAzul = new AraraAzul();
 
         araraAzul.comer();
         araraAzul.emitirSom();
-        //araraAzul.truque();
+        araraAzul.truque();
 
+        loboGuara.setNome("Lobin");
         loboGuara.comer();
         loboGuara.emitirSom();
-        //loboGuara.deitarRolar();
+        loboGuara.deitarRolar();
+
+
+        System.out.println(loboGuara.getNome());
+
+
 
 
     }
