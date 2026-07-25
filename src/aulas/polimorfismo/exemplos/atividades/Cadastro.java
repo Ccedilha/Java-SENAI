@@ -21,6 +21,10 @@ public class Cadastro {
         this.nome = nome;
     }
 
+    public boolean isIncompleto(){
+        return this.idade == 0 || this.cargo == null;
+    }
+
     public String getNome() {
         return nome;
     }
