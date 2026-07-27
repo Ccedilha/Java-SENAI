@@ -18,12 +18,15 @@ public class Cadastro {
     }
 
     public Cadastro (String nome){
+
         this.nome = nome;
     }
 
     public boolean isIncompleto(){
         return this.idade == 0 || this.cargo == null;
     }
+
+    public void atualizarStatus() {this.ativo = !isIncompleto();}
 
     public String getNome() {
         return nome;
