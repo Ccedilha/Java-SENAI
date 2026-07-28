@@ -23,12 +23,11 @@ public class Main {
             }
         }
 
-        System.out.println("=== Cadastros antes da atualizacao ===");
+        System.out.println("=== Cadastros antes da atualização ===");
         for (Cadastro pessoa : todosCadastros) {
             System.out.println(pessoa);
         }
-
-        // Percorre a lista de incompletos e pede pra preencher o que falta
+        
         System.out.println("\n=== Atualizando cadastros incompletos ===");
         for (int i = 0; i < dadosIncompletos.size(); i++) {
             Cadastro pessoa = dadosIncompletos.get(i);
@@ -37,7 +36,7 @@ public class Main {
             if (pessoa.getIdade() == 0) {
                 System.out.print("Digite a idade: ");
                 int novaIdade = entrada.nextInt();
-                entrada.nextLine(); // limpa o buffer
+                entrada.nextLine();
                 pessoa.setIdade(novaIdade);
             }
 
